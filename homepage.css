@@ -11,6 +11,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(42, 10, 73, 1);
+}
 .header{
     width: 100%;
     height: 133px;
@@ -53,7 +58,7 @@
     display: flex;
     justify-content: flex-end;
     margin-top: 18px;
-    font-size: 22px;
+    font-size: 20px;
     height: fit-content;
 }
 .navigation-secondary a{
@@ -74,3 +79,36 @@
 article{
     background-color: rgba(42, 10, 73, 1);
 }
+.content-tile{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 1080px;
+    text-align: center;
+}
+.tile-title{
+   font-family: StRyde-Bold;
+   margin: 30px 0px 0px 0px;
+   display: block;
+   font-size: 20px;
+   line-height: 1;
+   color: #b9a3d0;
+}
+.tile-title-description{
+    color: white;
+    line-height: 1.5;
+    font-size: 40px;
+}
+.tile-content{
+    background: url(images/highlight.png) 50%40% no-repeat;
+    background-size: contain;
+}
+.tile-description{
+    font-family: StRyde-Regular;
+    color: white;
+    font-size: 30px;
+}
+.bg-tile-img{
+    width: 100%;
+}
+  
