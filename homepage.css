@@ -1,42 +1,53 @@
-.container{
-    display: flex;
-    flex-wrap: wrap;
+@font-face{
+    font-family: StRyde-Bold;
+    src: url(/Cadbury/font/StRyde-Bold.woff2);
 }
-body{
-    margin: 0px;
+@font-face{
+    font-family: StRyde-Regular;
+    src: url(/Cadbury/font/StRyde-Regular.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .header{
+    width: 100%;
+    height: 133px;
+    padding: 16px 0 32px 0;
     background-image: linear-gradient(rgba(69, 35, 129, 1),rgba(42, 10, 73, 0.98));
-    height: 130px;
-    width: 100%;
-    padding: 10px 150px 10px 150px;
 }
-.header-topright{
-    height: 45px;
-    width: 100%;
-    background-color: aquamarine;
-}
-#logo{
-    background-color: aliceblue;
-    width: 20%;
-    height: 60%;
-    float: left;
-}
-.header-bottomright{
-    height: 45px;
-    width: 80%;
-    height: 60%;
-    background-color: black;
-    float: left;
-}
-.main{
-    background-color: #2a0a49;
-    width: 100%;
-    height: 1000px;
-    padding: 0px 150px 0px 150px 0px;
+.wrapper{
     display: flex;
+    margin: 0 160px;
 }
-.intro{
+.header-logo{
+    align-items: flex-end;
+}
+.header-navigation{
+    display: flex;
+    flex-direction: column;
+    font-family: StRyde-Bold;
     width: 100%;
-    height: 500px;
+}
+.navigation-primary{
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(255, 255, 255, 0.6);
+}
+.navigation-primary a{
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.5em;
+    font-size: 1.2em;
+    margin-left: 21px;
+}
+.navigation-group i{
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    color: white;
+    line-height: 1;
+    margin-left: 21px;
+}
+.navigation-secondary{
+    margin-top: 18px;
 }
