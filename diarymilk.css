@@ -1,0 +1,271 @@
+@font-face{
+    font-family: StRyde-Bold;
+    src: url(/Cadbury/font/StRyde-Bold.woff2);
+}
+@font-face{
+    font-family: StRyde-Regular;
+    src: url(/Cadbury/font/StRyde-Regular.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(42, 10, 73, 1);
+}
+.header{
+    width: 100%;
+    height: 133px;
+    padding: 16px 0 32px 0;
+    background-image: linear-gradient(rgba(69, 35, 129, 1),rgba(42, 10, 73, 0.98));
+}
+.wrapper{
+    display: flex;
+    margin: 0 160px;
+    width: 1200px;
+    margin: auto;
+}
+.header-logo{
+    align-self: flex-end;
+}
+.header-navigation{
+    display: flex;
+    flex-direction: column;
+    font-family: StRyde-Bold;
+    width: 100%;
+}
+.navigation-primary{
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(255, 255, 255, 0.6);
+}
+.navigation-primary a{
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 35px;
+    font-size: 18px;
+    margin-left: 21px;
+}
+
+.navigation-group i{
+    font-family: FontAwesome;
+    font-size: 24px;
+    color: white;
+    margin-left: 12px;
+}
+.navigation-secondary{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 18px;
+    font-size: 20px;
+    height: fit-content;
+}
+.navigation-secondary a{
+    color: white;
+    margin-left: 18px;
+}
+.search-bar{
+    font-family: StRyde-Bold;
+    margin-left: 24px;
+    width: 203px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 24px;
+}
+.search-bar::placeholder{
+    color: rgba(69, 35, 129, 0.5);
+}
+article{
+    background-color: rgba(42, 10, 73, 1);
+    background: url(images/bg-tile.png) 50%100% repeat-x;
+    background-size: contain;
+}
+.content-tile{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 1080px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.tile-title{
+   font-family: StRyde-Bold;
+   margin: 30px 0px 0px 0px;
+   display: block;
+   font-size: 20px;
+   line-height: 1;
+   color: #b9a3d0;
+}
+.tile-title-description{
+    color: white;
+    line-height: 1.5;
+    font-size: 40px;
+}
+.tile-content{
+    background: url(images/highlight.png) 50%40% no-repeat;
+    background-size: contain;
+}
+.tile-description{
+    font-family: StRyde-Regular;
+    color: white;
+    font-size: 30px;
+}
+.product-description-main1{
+    background-color: #472383;
+}
+.product-description-main{
+    width: 100%;
+    font-family: StRyde-Regular;
+    color: white;
+    font-size: 22px;
+    line-height: 1.6;
+    background: url(images/bg-inverted-tile.png) 0%100% no-repeat;
+    background-size: contain;
+    padding-bottom: 100px;
+
+}
+.product-des{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+    font-family: StRyde-bold;
+    font-size: 26px;
+    padding-bottom: 25px;
+    width: 540px;
+}
+.per-bar{
+    padding-bottom: 50px;
+}
+table{
+    width: 540px;
+    padding-bottom: 50px;
+}
+.thead-1{
+    text-align: right;
+}
+.ingredients{
+    width: 650px;
+    padding-bottom: 50px;
+}
+.other-info{
+    width: 540px;
+    padding-bottom: 50px;
+}
+.may-contain{
+    width: 650px;
+    padding-bottom: 50px;
+}
+.story1{
+    background: url(images/bg-tile.png) 0%100% no-repeat;
+    background-size: contain;
+}
+.story{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: StRyde-Regular;
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+.story-1995{
+    width: 500px;
+    margin-right: 50px  ;
+}
+button{
+    background-color: rgba(42, 10, 73, 1);
+    color: white;
+    font-family: StRyde-Bold;
+    border-color: white;
+    border-radius: 25px;
+    padding: 15px 30px;
+}
+.cocolife{
+    width: 500px;
+}
+.also-like1{
+    background-color: #472383;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.also-like{
+    font-family: StRyde-Bold;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.also-like1 h2{
+    padding-top: 50px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+}
+.more-img{
+    background: url(images/highlight.png) 50%50% no-repeat;
+    background-size: 80%;
+}
+.more-head{
+    font-size: 20px;
+    color: #b9a3d0;
+}
+.more-desc{
+    font-family: StRyde-Regular;
+    font-size: 22px;
+    line-height: 1.2;
+}
+.jug-milk{
+    height: fit-content;
+    width: 100%;
+    padding: 0 200px 0 0;
+    margin: auto;
+    margin-bottom: -4px;
+    background-color: #472383;
+}
+.jug-milk img{
+    float: right;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.footer{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+footer .navigation-group i{
+    font-family: FontAwesome;
+    font-size: 20px;
+    color: #472383;
+    margin-left: 10px;
+    float: right;
+}
+.footer p{
+    color: #6E5298;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.copyright div{
+    float: right;
+}
