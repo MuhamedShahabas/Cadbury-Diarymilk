@@ -1,10 +1,10 @@
 @font-face{
     font-family: StRyde-Bold;
-    src: url(font/StRyde-Bold.woff2);
+    src: url(StRyde-Bold.woff2);
 }
 @font-face{
     font-family: StRyde-Regular;
-    src: url(font/StRyde-Regular.woff);
+    src: url(StRyde-Regular.woff);
 }
 *{
     margin: 0;
